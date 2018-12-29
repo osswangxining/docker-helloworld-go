@@ -1,4 +1,4 @@
-FROM golang:latest AS builder
+FROM registry.cn-hangzhou.aliyuncs.com/wangxining/golang:latest AS builder
 
 RUN mkdir -p /go/src/go-helloworld
 COPY . /go/src/go-helloworld
